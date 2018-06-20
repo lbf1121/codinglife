@@ -23,6 +23,6 @@ public class TwoSum{
         return result;
     }
     public static void main(String[] args){
-        int[] a =
+
     }
 }
