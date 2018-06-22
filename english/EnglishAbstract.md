@@ -4,7 +4,7 @@ Week One
 --------
 <h1>Rich Man Poor Man</h1><br>
 <h2>Chapter 1-1</h2><br>
-    A Letter for Adam<br>
+        A Letter for Adam<br>
     One day a postman came to my village.<br>
     The postman brought me a letter from my son, Saul.<br>
     "Is your name Adam?" the postman asked.<br>
