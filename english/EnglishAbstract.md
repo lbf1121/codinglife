@@ -3,8 +3,7 @@ English Abstract
 Week One
 --------
 <h3>Rich Man Poor Man</h3><br>
-<h4>Chapter 1-1</h4><br>
-    &emsp;A Letter for Adam<br>
+<h4>Chapter 1-1  &emsp;A Letter for Adam</h4><br>
     One day a postman came to my village.<br>
     The postman brought me a letter from my son, Saul.<br>
     "Is your name Adam?" the postman asked.<br>
