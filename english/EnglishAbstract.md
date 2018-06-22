@@ -4,7 +4,7 @@ Week One
 --------
 #Rich Man Poor Man
 ##Chapter 1-1
-*A Letter for Adam
+    A Letter for Adam
     One day a postman came to my village.
     The postman brought me a letter from my son, Saul.
     "Is your name Adam?" the postman asked.
