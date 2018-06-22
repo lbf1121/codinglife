@@ -6,20 +6,22 @@
 
   [java] 查找1000以下的完全数。<br>
   解析：迭代每一个数，并计算出所有小于当前数并能被这个数模运算等于0的数的和，如果和等于这个数，那么这个数就是完全数。<br>
-  static List findPerfectNumber(int num){<br>
-        List rs = new ArrayList();<br>
-        for(int i=2;i<=num;i++){<br>
-            int a = i;<br>
+  ```java
+  static List findPerfectNumber(int num){
+        List rs = new ArrayList();<
+        for(int i=2;i<=num;i++){
+            int a = i;
             int sum = 0;<br>
-            for(int j=1;j<i;j++){<br>
-                if(a%j==0){<br>
-                    sum += j;<br>
-                }<br>
-            }<br>
+            for(int j=1;j<i;j++){
+                if(a%j==0){
+                    sum += j;
+                }
+            }
 
-            if(a==sum){<br>
-                rs.add(a);<br>
-            }<br>
-        }<br>
-        return rs;<br>
+            if(a==sum){
+                rs.add(a);
+            }
+        }
+        return rs;
    }
+   ```
