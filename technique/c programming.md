@@ -1,6 +1,6 @@
 The C Programming Language
 -------
-使用公式<sup>。</sup>C = （5/9）（<sup>。</sup>F-32）打印华氏温度与摄氏温度对照表。
+使用公式<sup>。</sup>C = （5/9）*（<sup>。</sup>F-32）打印华氏温度与摄氏温度对照表。
 ```c
 #include <stdio.h>
 main(){
