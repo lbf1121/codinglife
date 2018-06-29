@@ -64,6 +64,45 @@ public class AddTwoNumbers {
         return null;
     }
 
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        ListNode temp = l1;
+        ListNode temp2 = l2;
+
+        int v1 = l1!=null?l1.val:0;
+        int v2 = l2!=null?l2.val:0;
+
+        ListNode node = new ListNode((v1+v2)%10);
+        ListNode temp3 = node;
+        int carry = (v1+v2) / 10;;
+        while(temp!=null || temp2!=null){
+            v1 = 0;
+            v2 = 0;
+            if(temp!=null && temp.next!=null ){
+                temp = temp.next;
+                v1 = temp.val;
+            }else{
+                temp = null;
+            }
+            if(temp2!=null && temp2.next!=null){
+                temp2 = temp2.next;
+                v2 = temp2.val;
+            }else{
+                temp2 = null;
+            }
+
+            if(temp!=null || temp2!=null){
+                temp3.next = new ListNode(((v1+v2) % 10 + carry)%10);
+                temp3 = temp3.next;
+
+                carry = ((v1+v2)  + carry) / 10;
+            }
+
+        }
+
+        return node;
+    }
+
+
     public ListNode initListNode(int[] arr){
         ListNode node = null;
         ListNode temp = null;
@@ -82,12 +121,13 @@ public class AddTwoNumbers {
     }
     public static void main(String[] args){
         AddTwoNumbers atn = new AddTwoNumbers();
-        //81 + 0
-        int[] a = {1,8};
-        int[] b = {0};//77043  34077
+        //81 + 0 = 1->8 + 0 = 1,8
+        //3458 + 32 = 8->5->4->3 + 2->3 = 0943
+        int[] a = {8,5,4,3};
+        int[] b = {3,5};//77043  34077
         ListNode l1 = atn.initListNode(a);
         ListNode l2 = atn.initListNode(b);
-        ListNode rs = atn.addTwoNumbers(l1,l2);
+        ListNode rs = atn.addTwoNumbers2(l1,l2);
         while(rs!=null){
             System.out.print(rs.val+",");
             rs = rs.next;
