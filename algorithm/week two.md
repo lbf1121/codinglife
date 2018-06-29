@@ -13,7 +13,7 @@ Explanation: 342 + 465 = 807.
 方案1：將两个ListNode中的值依次求和，放入新的集合List中
 ```Java
  public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        //1.将两个ListNode中值一次求和
+        //1.将两个ListNode中值一次求和，放入List中
         ListNode temp = l1;
         ListNode temp2 = l2;
         List<Integer> rlist = new ArrayList<Integer>();
@@ -26,11 +26,13 @@ Explanation: 342 + 465 = 807.
         }
 
         if(rlist!=null && rlist.size()>0) {
+            //将List中数据倒序放入新数组中
             int[] rarr = new int[rlist.size()];
             for (int i = 0; i < rlist.size(); i++) {
                 rarr[(rlist.size() - 1) - i] = rlist.get(i);
             }
 
+            //返回新的ListNode
             ListNode node = null;
             ListNode temp3 = null;
             int sum = 0;

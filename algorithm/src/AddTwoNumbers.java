@@ -19,18 +19,27 @@ public class AddTwoNumbers {
         ListNode temp = l1;
         ListNode temp2 = l2;
         List<Integer> rlist = new ArrayList<Integer>();
-        while(temp!=null && temp2!=null){
-            int v1 = temp.val;
-            int v2 = temp2.val;
+        while(temp!=null || temp2!=null){
+            int v1 = temp==null?0:temp.val;
+            int v2 = temp2==null?0:temp2.val;
             rlist.add(Integer.valueOf(v1+v2));
-            temp = temp.next;
-            temp2 = temp2.next;
+            System.out.println("v1+v2 = "+(v1+v2));
+            if(temp==null || temp.next==null){
+                temp = null;
+            }else{
+                temp = temp.next;
+            }
+            if(temp2==null || temp2.next==null){
+                temp2 = null;
+            }else{
+                temp2 = temp2.next;
+            }
         }
 
         if(rlist!=null && rlist.size()>0) {
             int[] rarr = new int[rlist.size()];
             for (int i = 0; i < rlist.size(); i++) {
-                rarr[(rlist.size() - 1) - i] = rlist.get(i);
+                rarr[i] = rlist.get(i);
             }
 
             ListNode node = null;
@@ -45,6 +54,9 @@ public class AddTwoNumbers {
                     temp3.next = new ListNode((rarr[i] % 10 + sum)%10);
                     sum = (rarr[i]  + sum) / 10;
                     temp3 = temp3.next;
+                }
+                if(i==rarr.length-1 && sum>0){
+                    temp3.next = new ListNode(sum);
                 }
             }
             return node;
@@ -70,8 +82,9 @@ public class AddTwoNumbers {
     }
     public static void main(String[] args){
         AddTwoNumbers atn = new AddTwoNumbers();
-        int[] a = {3,5,1,7,4};
-        int[] b = {4,1,8,6,9};//77043  34077
+        //81 + 0
+        int[] a = {1,8};
+        int[] b = {0};//77043  34077
         ListNode l1 = atn.initListNode(a);
         ListNode l2 = atn.initListNode(b);
         ListNode rs = atn.addTwoNumbers(l1,l2);
