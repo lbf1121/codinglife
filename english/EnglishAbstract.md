@@ -58,3 +58,25 @@ Week Two
    That evening,the village people talked about the money order and my money.<br>
    Martha and I also talked about the money.We needed many things for the farm.
    [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/507?buid=2034348961)
+   
+##Week Three
+### Chapter 2-1 Adam Goes to Darpur
+The next morning I got up very early.<br>
+It was dark and everyone was asleep.<br>
+But I was going to Darpur.<br>
+I washed and dressed carefully.<br>
+I put on my best clothes and I carried my best stick.<br>
+I put the money order carefully in my pocket and I said goodbye to Martha.<br>
+I walked ten miles to the main road.I sat down at the main road and ate my breakfast.<br>
+I walked for the bus.I waited for two hours.Then the bus came and I got on.<br>
+It is a long way to Darpur.The bus takes three hours.<br>
+I arrived in Darpur and walked to the Post Office immediately.<br>
+I do not often go to Darpur.I only know the market,and one shop.<br>
+This is the shop of Rick.I buy things for my farm from Rick.<br>
+There were a lot of people in the Post Office.<br>
+I asked about money orders.A man showed me the queue.<br>
+There was a long line of people and I waited at the back.<br>
+
+
+
+   
