@@ -38,5 +38,7 @@ class Solution {
     }
 }
 * it is correct,but not efficient enough
+
 ```
+[LeetCode Approach](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/)
 
