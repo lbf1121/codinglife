@@ -8,19 +8,19 @@
     as well as -- starting with HTML5 -- manipulate the contents of the history stack.
     从HTML5开始，你也可以操作用户浏览器历史堆栈的内容。
     
-###Traveling through history 
+### Traveling through history 
     Moving backward and forward through the user's history is done using the back(), forward(), and go() methods.   
     在用户浏览器中前后浏览历史记录一般使用back(),forward()和go()的方法。
-####To move backward through history, just do:
-####返回操作，可以简单使用：
+#### To move backward through history, just do:
+#### 返回操作，可以简单使用：
     window.history.back();
     This will act exactly like the user clicked on the Back button in their browser toolbar.
     这将要执行的操作就像用户在他的浏览的导航栏里点击返回按钮一样。   
     Similarly, you can move forward (as if the user clicked the Forward button), like this:
     同样的你可以向前操作（好像用户点击了浏览器向前的按钮），就像这样：
     window.history.forward();
-####Moving to a specific point in history
-####移动到一个指定的历史记录点。
+#### Moving to a specific point in history
+#### 移动到一个指定的历史记录点。
     You can use the go() method to load a specific page from session history, 
     你可以使用go()方法从历史会话中来加载一个指定的页面，
     identified by its relative position to the current page 
@@ -34,8 +34,8 @@
     You can determine the number of pages in the history stack by looking at the value of the length property:
     你可以通过查看length属性的值来获得历史记录中页面的数量。
     var numberOfEntries = window.history.length;
-###Adding and modifying history entries
-###添加和修改历史记录
+### Adding and modifying history entries
+### 添加和修改历史记录
     HTML5 introduced the history.pushState() and history.replaceState() methods, 
     HTML5 介绍了history.pushState()和history.replaceState()方法，
     which allow you to add and modify history entries, respectively. 
