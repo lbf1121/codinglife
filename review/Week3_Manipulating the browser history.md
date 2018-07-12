@@ -112,4 +112,4 @@
     var currentState = history.state;       
 [原文](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 
-   文章讲述html5使用pushState()，改变url地址栏状态而并不加载页面。
+   
