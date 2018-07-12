@@ -57,7 +57,7 @@ Week Two
     Martha said,"Saul is a good son."<br>
     That evening,the village people talked about the money order and my money.<br>
     Martha and I also talked about the money.We needed many things for the farm.
-    [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/507?buid=2034348961)
+   [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/507?buid=2034348961)
    
 ## Week Three
 ### Chapter 2-1 Adam Goes to Darpur
@@ -76,7 +76,7 @@ Week Two
     There were a lot of people in the Post Office.<br>
     I asked about money orders.A man showed me the queue.<br>
     There was a long line of people and I waited at the back.<br>
-    [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/508?buid=2034348961)
+   [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/508?buid=2034348961)
 
 ## Week Four
 ### Chapter 2-2 
