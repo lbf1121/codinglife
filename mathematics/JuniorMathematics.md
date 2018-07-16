@@ -76,7 +76,72 @@ Week One
  分数的基本性质：分数的分子和分母同时乘以或除以相同的数（0除外），分数的大小不变。<br>
  最大公因数：1、2、4是16和12的公因数。4是最大公因数。<br>
  互质数：公因数只有1的两个数<br>
- 🈷️约分：把一个分数化成和它相等，但分子、分母都比较小的分数。
+ 最简分数：分子和分母只有公因数1的分数。<br>
+ 🈷️约分：把一个分数化成和它相等，但分子、分母都比较小的分数。<br>
+ 最小公倍数：6、12、18...是3和2公有的倍数，叫做它们的公倍数。其中，6是最小的公倍数，叫做它们的最小公倍数。<br>
+ 通分：把异分母分数分别化成和原来分数相等的同分母分数。1/4 和 2/5 分别化成 5/20 与 8/20 ，这样更利于比较两个分数的大小。<br>
+ 
+计算两个数的最大公约数（Greatest Common Divisor - GCD） 和 最小公倍数（Least Common Multiple - LCM）
+ ```
+    //GCD 采用 Euclidean Algorithm（欧几里得算法又称辗转相除法）：用于计算两个正整数a、b的最大公约数。
+    //计算公式：gcd(a,b) = gcd(b,a mod b) 
+    //mod ： 取模运算（“Modulo Operation”）
+    //lcm = (a * b)/gcd(a,b)
+    
+    
+    //solution 1:
+    //If you can use Java 8 (and actually want to) you can use lambda expressions to solve this functionally
+    private static int gcd(int x, int y) {
+        return (y == 0) ? x : gcd(y, x % y);
+    }
+    
+    public static int gcd(int... numbers) {
+        return Arrays.stream(numbers).reduce(0, (x, y) -> gcd(x, y));
+    }
+    
+    public static int lcm(int... numbers) {
+        return Arrays.stream(numbers).reduce(1, (x, y) -> x * (y / gcd(x, y)));
+    }
+    
+    // solution 2
+    private static int lcm(int numberOne, int numberTwo) {
+        final int bigger = Math.max(numberOne, numberTwo);
+        final int smaller = Math.min(numberOne, numberTwo);
+    
+        return IntStream.rangeClosed(1,smaller)
+                        .filter(factor -> (factor * bigger) % smaller == 0)
+                        .map(factor -> Math.abs(factor * bigger))
+                        .findFirst()
+                        .getAsInt();
+    }
+    
+    private static int gcd(int numberOne, int numberTwo) {
+        return (numberTwo == 0) ? numberOne : gcd(numberTwo, numberOne % numberTwo);
+    }
+    
+    //solution 3
+    static int gcd(int a,int b){
+        int rem = 0;
+        while(b != 0){
+            rem = a % b;
+            a = b;
+            b = rem;
+        }
+        return a;
+    }
+    
+    static int gcd(int a,int b){
+        while(a != b){
+            if(a>b){
+                a -= b;
+            }else{
+                b -= a;
+            }
+        }
+    }
+ ```
+ 
+ 
                 
    
     

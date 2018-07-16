@@ -38,6 +38,11 @@ class Solution {
     }
 }
 * it is correct,but not efficient enough
+勉强把这个算法的功能，简单粗暴的实现。但是效率很低，执行结果：
+Submission Result: Time Limit Exceeded。
+学习算法这个事情，可能需要调整下方式。不能光靠这种if else + for 来应对所有的算法。这样的算法也不能称之为算法。
+我需要调整自己方式方法。想法：规定1小时时间内，如果无法完成算法，就直接学习他人解法，记住解题思路。
+再以自己理解的方式，重新完成算法。当作数学公式来学习。
 
 ```
 [LeetCode Approach](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/)

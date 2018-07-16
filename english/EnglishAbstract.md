@@ -80,17 +80,17 @@ Week Two
 
 ## Week Four
 ### Chapter 2-2 
-    Finally it was my turn;I was at the front of the queue.
+    Finally it was my turn,I was at the front of the queue.
     But the official did not serve me.
     "Excuse me," I said."It's my turn.I'm next."
-    "You are next?Old man,I'm very busy," the official said.
-    "Look at all these people. I am very busy.And you must wait." 
+    "You are next? Old man,I'm very busy," the official said.
+    "Look at my papers.Look at all these people. I am very busy.And you must wait." 
     So I waited.
     Finaly the official looked at me. "What do you want?" he asked.
-    I gave hime my money order.
+    I gave him my money order.
     "This is my money order for one hundred pounds," I replied.
     The official held out his hand. "Identity Card," he said.
-    "Excuse me. I don't understand," I repliedk.
+    "Excuse me. I don't understand," I replied.
     "Your Identity Card," the official said again."Give me your Identity Card."
     "What is an Identity Card?" I asked.
     "I can't give you any money for this money order.First I must see your Identity Card.
@@ -105,7 +105,8 @@ Week Two
     The official gave back my money order and he turned away.
     "Where can I buy an Identity Card?" I asked the official.
     He did not speek to me.He did not answer.
-    "Go to the Ministry of the Interior," a man said.He was standing in the queue.And he told me the way.
+    "Go to the Ministry of the Interior," a man said.
+    He was standing in the queue.And he told me the way.
    [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/509buid=2034348961) 
     
     
