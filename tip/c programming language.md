@@ -89,7 +89,61 @@ main(){
     char 类型的字符是小整型，因此char类型的变量和常量在算数表达式中等价于int类型的变量和常量。
 ## Week 4    
 ### 1.7 函数
+编写一个求幂的函数power(m,n)来说明函数定义的方法。该函数用于计算整数m的n次幂，其中n是正整数。
+```C
+//函数原型：表明power函数有两个int类型的参数，并返回一个int类型的值。
+int power(int,int);
+int power(int m,int n);
+以上两种声明方式都可以。
 
+
+int main(int argc, const char * argv[]) {
+    int i;
+    for(i=0;i<10;++i)
+        printf("%d %d %d\n",i,power(2,i),power(-3,i));
+    return 0;
+}
+
+/* power 函数：求底数的n次幂；其中 n >= 0 */
+int power(int base,int n){
+    int i,p;
+    p = 1;
+    for(i = 1;i <= n;++i){
+        p = p * base;
+    }
+    return p;
+}
+
+```
+函数定义的一般形式为：
+
+    返回值类型  函数名(0个或多个参数声明){
+        声明部分
+        语句序列
+    }
+通常把函数定义中圆括号内列表中出现的变量称为形式参数，而把函数调用中形式参数对应的值称为实际参数。<br>
+#### 函数原型：
+  * 它必须与power函数的定义和用法一致。如果函数的定义、用法与函数原型不一致，将会出现错误。如：函数的返回值类型、参数类型、参数数量、参数顺序。
+  * 函数原型与函数声明中参数名不要求相同。
+  * 被调函数写在主调用函数之后时，必须在主调用函数前或者主调用函数内声明该函数的函数原型。
+  * 如果被调函数声明在主调用函数之前，该函数的函数原型是否声明则是可选。
+```C
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int sum();
+    s=sum();
+    printf("sum = %d",s);
+}
+int sum()
+{
+    int a,b;
+    printf(”Enter any two numbers:”);
+    scanf("%d%d",&a,&b);
+    return a+b;
+}
+```  
 ###1.8
 ###1.9
 ###1.10
