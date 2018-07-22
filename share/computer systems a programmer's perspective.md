@@ -98,9 +98,15 @@ void inplace_swap(int *x,int *y){
 
 * C 和 C++ 都支持有符号（默认）和无符号数。Java只支持有符号数。*
 
+## Week Five
 涉及数学知识：∑ :求和 ，位向量
 #### 2.2.2 无符号数的编码
+   无符号数的二进制表示有一个很重要的属性，就是每一个介于0～2<sup>w</sup>-1之间的数都有唯一一个w位的值编码。
 #### 2.2.3 补码编码
+   补码：two's-complement
+   负权：negative weight
+   函数：B2T<sub>w</sub>（Binary to Two's-complement的缩写，长度为w）
+        此公式需要集成LateX，才能很好的书写展示
 #### 2.2.4 有符号数与无符号数的转换
 #### 2.2.5 
 #### 2.2.6 

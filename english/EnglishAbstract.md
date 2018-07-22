@@ -109,6 +109,37 @@ Week Two
     He was standing in the queue.And he told me the way.
    [文章来源百词斩爱阅读](https://ireading.baicizhan.com/react_reading/reading/article/509buid=2034348961) 
     
-    
+## Week Five
+### Chapter 3-1 An Identity Card    
+    I walked to the Ministry of the Interior.I waited in another queue.
+    I spoke to another official.I asked for an Identity Card.
+    "Fill in this application form,"the official said.
+    "And bring the form and three photographs of yourself and two pounds.Come back tomorrow."
+    "Tomorrow?"I said."Can I have an Identity Card today,please?
+    I live in Minta.I live five hours' journey from Darpur.I'm and old man."
+    "Yes,come back tomorrow."And the official turned away.
+    I walked away from the Ministry of the Interior.
+    I walked to the market.
+    At the market I looked at everyone.
+    I was looking for a man from my village.
+    But I could not find a villager.
+    So then I walked to the shop of Rick.
+    I spoke the Rick."I want an Identity Card," I told him."But I need three photographs of myself."
+    "I see.You need some photographs."
+    And he showed me the way to a photographer.
+    I found the house.The photographer was asleep but he came to me quickly.
+    The man's clothes were dirty and he looked tired.
+    "I need an Identity Card," I said."I want three photographs of myself."
+    "Yes,you want three photographs of yourself," the photographer replied.
+    "And I take very good photographs.Come and see my camera."
+    We walked into his room. In the middle of the room was a large camera.
+    "This is the best camera in Darpur. This camera is very good," the photographer said proudly.
+    "I've never seen a camera," I said."I don't know about cameras."
+    "Hurry up and take a photograph of me."
+    "Please do not hurry me,old man," the photographer said."I am an artist."
+[原文](https://racoon.baicizhan.com/react_reading/reading/article/510?buid=2034348961&ts=1531922004000)
+
+
+
 
    
