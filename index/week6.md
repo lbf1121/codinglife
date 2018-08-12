@@ -1,4 +1,6 @@
-#ARTS-EM Week 6 2018/07/22-2018/07/28
+ARTS-EM Week 6 2018/07/22-2018/07/28
+=================================
+
 | # | ARTS | ARTICLE |
 |---| ----- | ---------- |
 |1|english|[rich man poor man chapter 3-2](../english/RichManPoorMan/week6_Chapter%203-2.md)|
