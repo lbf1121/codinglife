@@ -1,4 +1,3 @@
-package src;
 
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.
@@ -66,3 +65,8 @@ public class ReverseInteger {
 
 }
 
+/**
+ 做这道题的时候一直忽略了一个限制条件：Integer.MIN_VALUE 和 Integer.MAX_VALUE，对基本数据类型的概念理解还是不够到位。
+ 以至于短时间无法完成这道算法。
+ 刚开始看题觉得非常简单，没想到最终是这样的结果。缜密的逻辑思维，还需要不断加强，还不够细心。
+ * **/
