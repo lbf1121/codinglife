@@ -7,7 +7,7 @@
 |2|mathematics|[](../mathematics/JuniorMathematics.md)|
 |3|algorithm|[ReverseInteger](../algorithm/src/ReverseInteger.java)|
 |4|review|[]()|
-|5|share|[c_programing_language 1.10]()|
-|6|tip|[2]()|
+|5|share|[c_programing_language 1.10](../share/c_programing_language/1.10%20外部变量与作用域_week7.md)|
+|6|tip|[遇到多个构造器参数时要考虑用构造器](../tip/EffectiveJava/2%20遇到多个构造器参数时要考虑用构造器.md)|
 
 
