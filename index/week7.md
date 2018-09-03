@@ -4,7 +4,7 @@
 | # | ARTS | ARTICLE |
 |---| ----- | ---------- |
 |1|english|[rich man poor man chapter 4-1](../english/RichManPoorMan/week7_Chapter%204-1.md)|
-|2|mathematics|[](../mathematics/JuniorMathematics.md)|
+|2|mathematics|[JuniorMathematics](../mathematics/JuniorMathematics.md)|
 |3|algorithm|[ReverseInteger](../algorithm/src/ReverseInteger.java)|
 |4|review|[]()|
 |5|share|[c_programing_language 1.10](../share/c_programing_language/1.10%20外部变量与作用域_week7.md)|
