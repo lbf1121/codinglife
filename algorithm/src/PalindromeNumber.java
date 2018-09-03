@@ -1,7 +1,8 @@
 package src;
 
 /**
- * 功能说明：Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+ * 功能说明：Determine whether an integer is a palindrome.
+ *          An integer is a palindrome when it reads the same backward as forward.
  *
  * @auther liubf
  * @date 2018/9/3
