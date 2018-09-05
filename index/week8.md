@@ -4,7 +4,7 @@
 | # | ARTS | ARTICLE |
 |---| ----- | ---------- |
 |1|english|[...](../english/)|
-|2|mathematics|[JuniorMathematics](../mathematics/JuniorMathematics.md)|
+|2|mathematics|[JuniorMathematics](../mathematics/week8-7年级下.md)|
 |3|algorithm|[PalindromeNumber](../algorithm/src/PalindromeNumber.java)|
 |4|review|[...]()|
 |5|share|[...](../share/c_programing_language/)|
