@@ -218,13 +218,55 @@ Week One 5年级下
 * 两点的所有连线中，线段最短。两点间线段的长度，叫做两点的距离（distance）。
 * 角（angle）、度（degree）
 * 角的平分线（angular bisector）：从一个角的顶点出发，把这个角分成相等的两个角的射线，叫做～
-* 如果两个角的和等于90度，就说这两个角互为余角（complementary angle）
-* 如果两个角的和等于180度，就说这两个角互为补角
+* 余角：如果两个角的和等于90度，就说这两个角互为余角（complementary angle）
+* 补角：如果两个角的和等于180度，就说这两个角互为补角
 * 等角的补角相等；等角的余角相等。
 
 ### Week Seven
+#### 数据处理
+* 数据处理的一般过程：全面调查、抽样调查 --> 收集数据 --制表--> 整理数据 --绘图--> 描述数据 --> 分析数据 --> 得出结论
+#### 部分中英文词汇
 
-### Week Eight
+| 中文 | 英文 |
+|--- | ----- |
+|负数|negative number | 
+|整数|positive number |
+|整数|integer |
+|分数|fraction|
+|有理数|rational number|
+|数轴|number axis|
+|原点|origin|
+|相反数|opposite number|
+|绝对值|absolute value|
+|乘方、幂|power|
+|底数|base number|
+|指数|exponent|
+|近似数|approximate number|
+|有效数字|significant digit|
+|方程|equation|
+|一元一次方程|linear equation with one unknown|
+|解|solution|
+|几何图形|geometry figure|
+|立体图形|solid figure|
+|平面图形|plane figure|
+|展开图|net|
+|体|solid|
+|面|surface|
+|线|line|
+|点|point|
+|中点|center|
+|距离|distance|
+|角|angle|
+|度|degree|
+|角的平分线|angular bisector|
+|余角|complementary angle|
+|补角|supplementary angle|
+|划记法|tallying|
+|抽样|sampling|
+|总体|population|
+|样本|sample|
+
+
 
 
   
