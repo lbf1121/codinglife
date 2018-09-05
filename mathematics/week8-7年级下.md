@@ -4,8 +4,7 @@
 * 邻补角：角1和角2有一条公共边OC，它们的另一边互为反向延长线（角1与角2互补），具有这种关系的两个角，互为邻补角（adjacent angles on a straight line）
 * 对顶角：角1和角3有一个公共顶点O，并且角1的两边分别为角3的两边的反向延长线，具有这种位置关系的两个角，互为顶角（vertical angles）
 * 对顶角相等
-* 垂直（perpendicular）:垂直是相交的一种特殊情形，两条直线互相垂直。其中一条直线叫做另一条直线的垂线（perpendicular line）
-*                      它们的焦点叫做垂足（foot of a perpendicular）
+* 垂直（perpendicular）:垂直是相交的一种特殊情形，两条直线互相垂直。其中一条直线叫做另一条直线的垂线（perpendicular line）。它们的焦点叫做垂足（foot of a perpendicular）
 * 过一点有且只有一条直线与已知直线垂直
 * 链接直线外一点与直线上各点的所有线段中，垂线段最短。垂线段的长度叫做点到直线的距离。
 #### 平行线
