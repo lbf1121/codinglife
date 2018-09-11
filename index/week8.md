@@ -6,7 +6,7 @@
 |1|english|[...](../english/)|
 |2|mathematics|[JuniorMathematics](../mathematics/week8-7年级下.md)|
 |3|algorithm|[PalindromeNumber](../algorithm/src/PalindromeNumber.java)|
-|4|review|[...]()|
+|4|review|[What I learned from doing 1000 code reviews](../review/Week8_What I learned from doing 1000 code reviews.md)|
 |5|share|[...](../share/c_programing_language/)|
 |6|tip|[....](../tip/EffectiveJava/)|
 
