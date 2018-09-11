@@ -40,7 +40,17 @@
     mvn clean install -U
 ```
 * 第五步创建一个自动化测试用例
-
+```Java
+public class Nameofclass {
+    public static void main(String[] args){
+        FirefoxDriver driver = new FirefoxDriver();
+        driver.get("https://www.linkedin.com");
+        driver.findElement(By.id("login-email")).sendKeys("random-email@gmail.com");
+        driver.findElement(By.id("login-password")).sendKeys("12345678");
+        driver.findElement(By.id("login-submit")).click();
+    }
+}
+```
 
 
 [How to create your first Web Automated test（原文）](https://medium.com/@kalsinirch/simple-web-automation-flow-creating-13486ba1ef4)
