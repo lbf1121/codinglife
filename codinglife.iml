@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/mathematics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/share" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tip" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tip/EffectiveJava/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
