@@ -51,5 +51,7 @@ public class Nameofclass {
     }
 }
 ```
-
+    刚刚看到标题以为是web项目的单元测试内容，看完后才知道讲的如果使用Selenium库对web页面进行测试。
+    这个技术之前都没有接触过，看着还挺有意思的。写下了把作者的相关文章也看完。
+    让自己对Selenium这个库更了解些，以后对前端做测试的时候，没准可以考虑使用Selenium做测试。
 [How to create your first Web Automated test（原文）](https://medium.com/@kalsinirch/simple-web-automation-flow-creating-13486ba1ef4)
