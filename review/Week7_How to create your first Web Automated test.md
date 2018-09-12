@@ -52,5 +52,4 @@ public class Nameofclass {
 }
 ```
 
-
 [How to create your first Web Automated test（原文）](https://medium.com/@kalsinirch/simple-web-automation-flow-creating-13486ba1ef4)
