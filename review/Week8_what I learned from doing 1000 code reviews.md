@@ -172,4 +172,14 @@ Applying these rewrites make methods more flexible and easier to use for callers
 * [Lifting](https://wiki.haskell.org/Lifting)
 * [Lifting Functions to Work With Java Monads](https://dzone.com/articles/lifting-functions-to-work-with-monads-in-java)
 
+作者从1000多次的code review中总结的一些经验，分为3条，第一点和第二点很好理解，我想说一下第三点中的Optional。下面简单介绍下关于Java 8的新特性Optional的一些基本使用方法。
+* [Optional's API in Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
+
+参考文章：
+[使用 Java8 Optional 的正确姿势](http://www.importnew.com/22060.html)
+[Java 8 Optional类深度解析](https://wizardforcel.gitbooks.io/java8-tutorials/content/Java%208%20Optional%20%E7%B1%BB%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html)
+[Guide To Java 8 Optional](https://www.baeldung.com/java-optional)
+[Java 8 Optional In Depth](https://www.mkyong.com/java8/java-8-optional-in-depth/)
+
+
 [What I learned from doing 1000 code reviews(原文)](https://hackernoon.com/what-i-learned-from-doing-1000-code-reviews-fe28d4d11c71)
