@@ -3,10 +3,10 @@
 
 | # | ARTS | ARTICLE |
 |---| ----- | ---------- |
-|1|english|[...](../english/)|
+|1|english|[RichManPoorMan(Chapter 5-2)](../english/RichManPoorMan/week10_Chapter%205-2.md)|
 |2|mathematics|[JuniorMathematics](../mathematics/week10-7年级下.md)|
-|3|algorithm|[PalindromeNumber](../algorithm/src/)|
-|4|review|[...]()|
+|3|algorithm|[....](../algorithm/)|
+|4|review|[LinkedIn’s Tips for Highly Effective Code Review](../review/Week10_LinkedIn’s-Tips-for-Highly-Effective-Code-Review.md)|
 |5|share|[...](../share/c_programing_language/)|
 |6|tip|[....](../tip/EffectiveJava/)|
 
