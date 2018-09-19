@@ -109,18 +109,18 @@ String redirectLink = serializeQueryParam("context");
     你不必为每个方法都写大量的javadocs。
 ### Suggestion 3: Use Optionals instead of nulls
 ### 建议3：使用Optionals 代替 nulls
-One of the best features to come out of Java 8 is the Optional class that represents an entity which could reasonably exist or not exist.
-Java 8中最好的特征之一是 Optional类可以描述一个实体对象是否应该合理的存在。
-Trivia question: what is the only exception to have its own acronym? 
-细节问题：只有哪个异常拥有自己的首字母缩略词？
-Answer: a NPE or Null Pointer Exception. 
-答案：NPE（Null Pointer Exception）
-It is by far the most common exception in Java and has been referred to as a [billion dollar mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
-它是迄今为止，Java中最常出现的异常，可以参考文章：[10亿美元的错误](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
-Optional allows you to completely remove NPEs from your program. 
-Optional允许你从程序中完全的移除NPES。
-However, it must be used correctly. 
-然而，它必须被正确的使用。
+    One of the best features to come out of Java 8 is the Optional class that represents an entity which could reasonably exist or not exist.
+    Java 8中最好的特征之一是 Optional类可以描述一个实体对象是否应该合理的存在。
+    Trivia question: what is the only exception to have its own acronym? 
+    细节问题：只有哪个异常拥有自己的首字母缩略词？
+    Answer: a NPE or Null Pointer Exception. 
+    答案：NPE（Null Pointer Exception）
+    It is by far the most common exception in Java and has been referred to as a [billion dollar mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+    它是迄今为止，Java中最常出现的异常，可以参考文章：[10亿美元的错误](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare).
+    Optional allows you to completely remove NPEs from your program. 
+    Optional允许你从程序中完全的移除NPES。
+    However, it must be used correctly. 
+    然而，它必须被正确的使用。
 Here’s some advice surrounding the use of Optional:
 这里有一些使用Optional的建议：
 * You should not simply call .get() anytime you have an Optional in order to use it, instead think carefully about the case where the Optional is not present and come up with a sensible default value.
@@ -149,37 +149,46 @@ T method(A param1, B param2);
 // This method is clearly doing two things, it should be two methods
 // The same is true for boolean parameters
 ```
-What do all the avoid methods have in common? 
-所有要避免的方法有什么共同之处？
-They are using container objects like Optional, List, or Task as method parameters. 
-他们都使用像Optional、List或Task作为方法参数的容器对象。
-It’s even worse when the return type is the same kind of container (ie. a one param methods takes an Optional and returns an Optional).
-更糟糕的是返回类型也是同一类型的容器
-Why?
-为什么？
-1) Promise<A> method(Promise<B> param)
-is less flexible than simply having
-2) A method(B param).
-1) 比 2) 更缺少灵活性。
-If you have a Promise<B> then you can use 1) or you can use 2) by “lifting” the function with .map. (ie. promise.map(method)).
-如果你有参数Promise<B> 你可以使用 1) 或 2)
-However, if you have just B then you can easily use 2) but you can’t use 1), which makes 2) the much more flexible option.
+    What do all the avoid methods have in common? 
+    所有要避免的方法有什么共同之处？
+    They are using container objects like Optional, List, or Task as method parameters. 
+    他们都使用像Optional、List或Task作为方法参数的容器对象。
+    It’s even worse when the return type is the same kind of container (ie. a one param methods takes an Optional and returns an Optional).
+    更糟糕的是返回类型也是同一类型的容器
+    Why?
+    1) Promise<A> method(Promise<B> param)
+    is less flexible than simply having
+    2) A method(B param).
+    1) 比 2) 更缺少灵活性。
 
-I like to call this “unlifting” because it is the opposite of the common functional utility method “lift”. 
-Applying these rewrites make methods more flexible and easier to use for callers.
+    If you have a Promise<B> then you can use 1) or you can use 2) by “lifting” the function with .map. (ie. promise.map(method)).
+    如果你有参数Promise<B> 你可以使用 1) 或 2)
+    However, if you have just B then you can easily use 2) but you can’t use 1), which makes 2) the much more flexible option.
+    
+    I like to call this “unlifting” because it is the opposite of the common functional utility method “lift”. 
+    Applying these rewrites make methods more flexible and easier to use for callers.
+
+    作者在大量的code review中总结出的一些经验。
+    关于异常处理：虽然并没有看到过像作者说的那样的代码，但是自己在工作对于异常的处理方式也是不合理的。习惯将所有一次catch住，通过打印异常日志信息，使用这些信息调试代码。
+    关于具体类型：这个在工作中确实很常见，很多软件设计的时候，都是大量的String类型，包括数据库的设计。似乎字符串类型就可以搞定一切，如此设计也确实放弃了强类型语言本身的一大优势。自己在工作中也犯过同样的错误，特别是对枚举类型，没有好好利用。
+    关于Optional：Optional是Java 8的新特性，还不熟悉这个类。
+    作者的三个建议是自己都没有掌握的技术，接下来我会分别几篇文章，来学习这些技术点：异常、强类型、Optional、Lifting。
 
 #### 关于Lifting Function介绍
 * [Lifting](https://wiki.haskell.org/Lifting)
 * [Lifting Functions to Work With Java Monads](https://dzone.com/articles/lifting-functions-to-work-with-monads-in-java)
 
-作者从1000多次的code review中总结的一些经验，分为3条，第一点和第二点很好理解，我想说一下第三点中的Optional。下面简单介绍下关于Java 8的新特性Optional的一些基本使用方法。
+#### Optional参考文章：
 * [Optional's API in Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
+* [Java 8 新特性概述](https://www.ibm.com/developerworks/cn/java/j-lo-jdk8newfeature/index.html)
+* [使用 Java8 Optional 的正确姿势](http://www.importnew.com/22060.html)
+* [Java 8 Optional类深度解析](https://wizardforcel.gitbooks.io/java8-tutorials/content/Java%208%20Optional%20%E7%B1%BB%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html)
+* [Guide To Java 8 Optional](https://www.baeldung.com/java-optional)
+* [Java 8 Optional In Depth](https://www.mkyong.com/java8/java-8-optional-in-depth/)
 
-参考文章：
-[使用 Java8 Optional 的正确姿势](http://www.importnew.com/22060.html)
-[Java 8 Optional类深度解析](https://wizardforcel.gitbooks.io/java8-tutorials/content/Java%208%20Optional%20%E7%B1%BB%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html)
-[Guide To Java 8 Optional](https://www.baeldung.com/java-optional)
-[Java 8 Optional In Depth](https://www.mkyong.com/java8/java-8-optional-in-depth/)
-
+#### 关于异常
+* [Top 20 Java Exception Handling Best Practices](https://howtodoinjava.com/best-practices/java-exception-handling-best-practices/)
+* [9 Best Practices to Handle Exceptions in Java](https://stackify.com/best-practices-exceptions-java/)
+* [Why you should ignore exceptions in Java and how to do it correctly](https://medium.freecodecamp.org/why-you-should-ignore-exceptions-in-java-and-how-to-do-it-correctly-8e95e5775e58)
 
 [What I learned from doing 1000 code reviews(原文)](https://hackernoon.com/what-i-learned-from-doing-1000-code-reviews-fe28d4d11c71)

@@ -27,5 +27,5 @@
     "Come in now,please, and follow me," he said.
     I followed the tall man. We went into a large room with fine carpets and big chairs.
 
-[原文-百词斩爱阅读](https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3eaeff9db2a3c4e9&redirect_uri=https%3A%2F%2Fbaicizhan.com%2Fapi%2Fpassport%2Fauth%2Fweixin%2Fcallback%3Flogid%3D1536734589996887%26from_url%3Dhttps%253A%252F%252Fireading.baicizhan.com%252Freading%252Fweixin_reading_index&response_type=code&scope=snsapi_login&state=123456#wechat_redirect)   
+[原文-百词斩爱阅读](https://hamster.baicizhan.com/react_reading/reading/article/516?ts=1537325755000)   
    
