@@ -172,17 +172,4 @@ T method(A param1, B param2);
     关于具体类型：这个在工作中确实很常见，很多软件设计的时候，都是大量的String类型，包括数据库的设计。似乎字符串类型就可以搞定一切，如此设计也确实放弃了强类型语言本身的一大优势。自己在工作中也犯过同样的错误，特别是对枚举类型，没有好好利用。
     关于Optional：Optional是Java 8的新特性，还不熟悉这个类。
     作者的三个建议是自己都没有掌握的技术，接下来我会分别几篇文章，来学习这些技术点：异常、强类型、Optional、Lifting。
-
-#### 关于Lifting Function介绍
-* [Lifting](https://wiki.haskell.org/Lifting)
-* [Lifting Functions to Work With Java Monads](https://dzone.com/articles/lifting-functions-to-work-with-monads-in-java)
-
-#### Java8新特性：Optional初步了解：
-* [Java 8:Optional](../tip/Java8-Optional.md)
-
-#### 关于异常
-* [Top 20 Java Exception Handling Best Practices](https://howtodoinjava.com/best-practices/java-exception-handling-best-practices/)
-* [9 Best Practices to Handle Exceptions in Java](https://stackify.com/best-practices-exceptions-java/)
-* [Why you should ignore exceptions in Java and how to do it correctly](https://medium.freecodecamp.org/why-you-should-ignore-exceptions-in-java-and-how-to-do-it-correctly-8e95e5775e58)
-
 [What I learned from doing 1000 code reviews(原文)](https://hackernoon.com/what-i-learned-from-doing-1000-code-reviews-fe28d4d11c71)

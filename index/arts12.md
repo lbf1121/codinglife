@@ -8,6 +8,6 @@
 |3|algorithm|[PalindromeNumber](../algorithm/src/)|
 |4|review|[...]()|
 |5|share|[...](../share/c_programing_language/)|
-|6|tip|[....](../tip/EffectiveJava/)|
+|6|tip|[Two players alternately flip a coin;what is the probability of winning by getting a head](../tip/Two-players-alternately-flip-a-coin-what-is-the-probability-of-winning-by-getting-a-head.md)|
 
 
