@@ -8,6 +8,6 @@
 |3|algorithm|[PalindromeNumber](../algorithm/src/)|
 |4|review|[...]()|
 |5|share|[...](../share/c_programing_language/)|
-|6|tip|[Exception in java](../tip/Exception-In-Java.md)|
+|6|tip|[Java 8:Lambda](../tip/Java8-Lambda.md)|
 
 
