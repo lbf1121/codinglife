@@ -122,7 +122,6 @@ String redirectLink = serializeQueryParam("context");
     However, it must be used correctly. 
     然而，它必须被正确的使用。
 Here’s some advice surrounding the use of Optional:
-这里有一些使用Optional的建议：
 * You should not simply call .get() anytime you have an Optional in order to use it, instead think carefully about the case where the Optional is not present and come up with a sensible default value.
 * If you do not yet have a sensible default value then methods like .map() and .flatMap() allow you to defer this decision until later.
 * If an external library returns null to indicate the empty case, then immediately wrap the value using Optional.ofNullable(). Trust me, you will thank yourself later. nulls have a tendency to “bubble up” inside programs so it’s best to stop them at the source.
@@ -178,13 +177,8 @@ T method(A param1, B param2);
 * [Lifting](https://wiki.haskell.org/Lifting)
 * [Lifting Functions to Work With Java Monads](https://dzone.com/articles/lifting-functions-to-work-with-monads-in-java)
 
-#### Optional参考文章：
-* [Optional's API in Java 8](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
-* [Java 8 新特性概述](https://www.ibm.com/developerworks/cn/java/j-lo-jdk8newfeature/index.html)
-* [使用 Java8 Optional 的正确姿势](http://www.importnew.com/22060.html)
-* [Java 8 Optional类深度解析](https://wizardforcel.gitbooks.io/java8-tutorials/content/Java%208%20Optional%20%E7%B1%BB%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html)
-* [Guide To Java 8 Optional](https://www.baeldung.com/java-optional)
-* [Java 8 Optional In Depth](https://www.mkyong.com/java8/java-8-optional-in-depth/)
+#### Java8新特性：Optional初步了解：
+* [Java 8:Optional](../tip/Java8-Optional.md)
 
 #### 关于异常
 * [Top 20 Java Exception Handling Best Practices](https://howtodoinjava.com/best-practices/java-exception-handling-best-practices/)

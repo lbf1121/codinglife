@@ -8,6 +8,6 @@
 |3|algorithm|[....](../algorithm/)|
 |4|review|[LinkedIn’s Tips for Highly Effective Code Review](../review/Week10_LinkedIn’s-Tips-for-Highly-Effective-Code-Review.md)|
 |5|share|[...](../share/c_programing_language/)|
-|6|tip|[....](../tip/EffectiveJava/)|
+|6|tip|[Java 8:Predicate And Consumer](../tip/Java8-PredicateAndConsumer.md)|
 
 
