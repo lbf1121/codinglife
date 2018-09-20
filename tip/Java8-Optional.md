@@ -102,7 +102,7 @@ class ValueAbsentException extends Throwable {
 ```
 #### map(Function<? super T,? extends U> mapper)
 如果有值，则对其执行调用mapping函数得到返回值。如果返回值不为null，则创建包含mapping返回值的Optional作为map方法返回值，否则返回空Optional。
-* map方法用来对Optional实例的值执行一系列操作。通过一组实现了Function接口的lambda表达式传入操作。如果你不熟悉Function接口，可以参考我的这篇博客
+* map方法用来对Optional实例的值执行一系列操作。通过一组实现了Function接口的lambda表达式传入操作。如果你不熟悉Function接口，可以参考我的[这篇博客](https://sanaulla.info/2013/03/27/function-interface-a-functional-interface-in-the-java-util-function-package-in-java-8/)
 ```text
 //map方法执行传入的lambda表达式参数对Optional实例的值进行修改。
 //为lambda表达式的返回值创建新的Optional实例作为map方法的返回值。
