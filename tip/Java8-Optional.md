@@ -230,3 +230,4 @@ Returns a non-empty string representation of this Optional suitable for debuggin
 * [Java 8 Optional类深度解析](https://wizardforcel.gitbooks.io/java8-tutorials/content/Java%208%20Optional%20%E7%B1%BB%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90.html)
 * [Guide To Java 8 Optional](https://www.baeldung.com/java-optional)
 * [Java 8 Optional In Depth](https://www.mkyong.com/java8/java-8-optional-in-depth/)
+* [使用 Java8 Optional 的正确姿势](http://www.importnew.com/22060.html)
