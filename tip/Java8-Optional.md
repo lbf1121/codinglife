@@ -50,8 +50,8 @@ arrOptional.ifPresent((value) -> {
 ```
 #### orElse(T other)
 如果有值则将其返回，否则返回指定的其它值
+* 如果Optional实例有值则将其返回，否则返回orElse方法传入的参数。
 ```text
-如果Optional实例有值则将其返回，否则返回orElse方法传入的参数。示例如下：
 //如果值不为null，orElse方法返回Optional实例的值。
 //如果为null，返回传入的消息。
 //输出：There is no value present!
