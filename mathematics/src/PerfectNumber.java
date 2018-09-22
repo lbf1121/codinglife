@@ -1,4 +1,4 @@
-package mathematics.src;
+package src;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,6 +46,16 @@ public class PerfectNumber {
             }
         }
    }
+
+   static int lower(int c){
+       if(c >= 'A' && c <= 'Z'){
+            return c + 'a' - 'A';
+       }else{
+            return c;
+       }
+   }
+
+
    public static void main(String[] args){
 
        //System.out.print(findPerfectNumber(10000));
@@ -54,6 +64,11 @@ public class PerfectNumber {
        }*/
 
        findPrimeAndCompositeNumber(20);
-
+       System.out.println('0');
+       System.out.println('a'-'0');
+       System.out.println('A'-'0');
+       System.out.println('z'-'0');
+       System.out.println('Z'-'0');
+       System.out.println(lower(76));
    }
 }
