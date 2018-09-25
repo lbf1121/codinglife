@@ -70,5 +70,12 @@ public class PerfectNumber {
        System.out.println('z'-'0');
        System.out.println('Z'-'0');
        System.out.println(lower(76));
+       int x = 1;
+       int y = 2;
+       System.out.println(x & y);
+       //0000 0001
+       //0000 0010
+
+       System.out.println(x==1 && y==2);
    }
 }
