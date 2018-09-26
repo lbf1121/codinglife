@@ -77,5 +77,7 @@ public class PerfectNumber {
        //0000 0010
 
        System.out.println(x==1 && y==2);
+       int n = 3;
+       System.out.println(n<<3);
    }
 }
