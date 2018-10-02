@@ -6,9 +6,9 @@
     "Give me my photographs," I said. "I have waited a long time for you."
     The photographer looked at me and said, "I don't know you, old man. What photographs are you talking about?"
     "My three photographs for my Identity Card. I paid you two pounds for them on Tuesday. Give me my photographs immediately or my money."
-    "Your photographs? Your money? What are you talking about?" the photographer said."Show me the paper.Show my the receipt for your money."
+    "Your photographs? Your money? What are you talking about?" the photographer said."Show me the paper. Show my the receipt for your money."
     "My receipt?" I asked.
-    "Yes. Where is your receipt?"k the photographer asked.
+    "Yes. Where is your receipt?" the photographer asked.
     "You did not give me a receipt," I shouted. "Give me my photographs or my money immediately." And I hit the photographer hard with my stick.
     I am old, but I am still strong.
     The photographer fell on the ground. He shouted, "Help! Help! This old man is killing me."
@@ -31,3 +31,4 @@
     I went back to my village.
     I was tired and angry.
    
+[原文](https://hamster.baicizhan.com/react_reading/reading/article/515?ts=1537325755000)   

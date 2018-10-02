@@ -1,14 +1,14 @@
 
 ## Week Seven
 ### Chapter 4-1 No Photographs
-    I work up late the next moning.
+    I work up late the next morning.
     The sun was already high.
     I did not walk to the main road and catch a bus.
     All the buses go to Darpur early in the morning.
     So I stayed at home on Wednesday.
     I was still tired.
     I rested and talked to the villagers about the money order.
-    I told them about the Identity Card and thek photographer.
+    I told them about the Identity Card and the photographer.
     The school teacher said, "Yes,the official is correct. In a Post Office,you always show your Identity Card."
     The school teacher filled in my application form for an Identity Card.
     Application Form For Identity Card
@@ -32,3 +32,4 @@
     "He's out. He's not here." And the woman closed the door.
     I shouted at her, "I'm waiting here for him."
     
+[原文](https://hamster.baicizhan.com/react_reading/reading/article/514?ts=1537325755000)
