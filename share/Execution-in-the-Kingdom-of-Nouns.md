@@ -202,5 +202,6 @@
     
     I sure hope they fix this, so I can take the trash out and get back to my video game. Or whatever I was doing.
 
+作者以故事的方式讲述java语言以名词为中心的特点，为什么引入lambda来代替函数式编程的方式。真是脑洞打开，很幽默。虽然很长可一点都不枯燥。
 
 [原文](http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html)

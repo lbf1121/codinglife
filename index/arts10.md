@@ -7,7 +7,7 @@
 |2|mathematics|[JuniorMathematics](../mathematics/week10-7年级下.md)|
 |3|algorithm|[....](../algorithm/)|
 |4|review|[LinkedIn’s Tips for Highly Effective Code Review](../review/Week10_LinkedIn’s-Tips-for-Highly-Effective-Code-Review.md)|
-|5|share|[Execution in the Kingdom of Nouns](../share/c_programing_language/)|
+|5|share|[Execution in the Kingdom of Nouns](../share/Execution-in-the-Kingdom-of-Nouns.md)|
 |6|tip|[Java 8:Predicate And Consumer](../tip/Java8-PredicateAndConsumer.md)|
 
 

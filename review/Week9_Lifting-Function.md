@@ -149,4 +149,6 @@ It really shares the same structure as the sync code. That is isomorphic!
 * [Scala example source code file (lift-and-unlift.scala)](https://alvinalexander.com/java/jwarehouse/scala/test/files/run/lift-and-unlift.scala.shtml)
 * [Lifting Functions to Work With Java Monads](https://dzone.com/articles/lifting-functions-to-work-with-monads-in-java)
 
+想要理解这篇文章，首先要理解lambda语法，lambda是java8的新特性，类似函数式编程，语法简洁，不过习惯了面向对象的编程，理解期lambda还是需要写时间的。
+本文作者讲述的是lifting function的编程方法：
 [原文](https://www.cnblogs.com/weidagang2046/p/fp-without-lambda-2.html)
