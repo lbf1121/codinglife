@@ -11,6 +11,7 @@ public class LongestCommonPrefix {
         String r = "";
         for (int i = 0; i < shortStr.length(); i++) {
             String s = shortStr.substring(0,i+1);
+            //2.
             String s1 = getLongestStr(strs,s,i+1);
             if(s1!=""){
                 r = s1;
@@ -20,7 +21,9 @@ public class LongestCommonPrefix {
         }
        return r;
     }
-
+    /**
+     * 找到最短字符串与其他子字符串的longest common prefix string
+     * **/
     private String getLongestStr(String[] strs,String s,int index){
         //System.out.println(s +"======="+index);
         for (String item: strs) {
