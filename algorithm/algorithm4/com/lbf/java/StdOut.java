@@ -314,7 +314,7 @@ public final class StdOut {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-
+        System.out.printf("%.6f\n", 1.0/7.0);
         // write to stdout
         StdOut.println("Test");
         StdOut.println(17);
