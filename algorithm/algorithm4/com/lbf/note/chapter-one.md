@@ -227,11 +227,20 @@ public class Arrays
 * [中位数](https://zh.wikipedia.org/wiki/%E4%B8%AD%E4%BD%8D%E6%95%B8)
 
 #### 1.1.8 字符串
-格式化输出
+##### 1.1.8.2 类型转换
+    String值与数字之间的转换API
+    
+    public class Integer
+    static    int   parseInt(String s)      //将字符串s转换为整数
+    static    String    toString(int i)     //将整数i转换为字符串
+    
+    public class Double
+    static    double    parseDouble(String s)   //将字符串s转换为浮点数
+    static    String    toString(double x)      //将浮点数x转化为字符串
+#### 1.1.9 输入输出
     
     //d：整型的十进制数；f：浮点型；s：字符串
-    System.out.printf("%.6f\n", 1.0/7.0);   //.6f ：保留6位小数的float类型
-    
+    System.out.printf("%.6f\n", 1.0/7.0);   //.6f ：保留6位小数的float类型  
 ##### printf()格式化方式
     int     d       512                     "%14d"     "           512"
                                             "%-14d"    "512           "
@@ -243,6 +252,162 @@ public class Arrays
     String  s       "Hello, World"          "%14s"     "  Hello, World"
                                             "%-14s"    "Hello,World   "
                                             "%14.5s"   "Hello         "  
-                                                                                      
-                                            
-            
+##### 1.1.9.5 重定向与管道
+* 将一个程序的输出重定向为另一个程序的输入叫做管道   
+```text
+    将一个文件重定向为一个标准输入：
+    % java Average < data.txt
+    data.txt-->标准输入-->Average
+    
+    将标准输出重定向到一个文件：
+    % java RandomSeq 1000 100.0 200.0 > data.txt
+    RandomSeq-->标准输入-->data.txt
+    
+    将一个程序的输出通过管道作为另一个程序的输入：
+    % java RandomSeq 1000 100.0 200.0 | java Average
+    RandomSeq-->标准输出-->标准输入-->Average
+    
+```                                         
+#### 1.1.10 二分查找
+```java
+    import java.util.Arrays;
+    import algorithm4.com.lbf.java.*;
+    public class BinarySearch{
+        public static int rank(int key,int[] a){
+            //数组必须是有序的
+            int lo = 0;
+            int hi = a.length - 1;
+            while(lo <= hi){
+                //被查找的键要么不存在，要么必然存在与a[lo...hi]之中
+                int mid = lo + (hi - lo) / 2;   //计算lo与hi的中间值
+                if(key < a[mid])   hi = mid - 1;
+                else if(key > a[mid])   lo = mid + 1;    
+                else return mid;
+                
+            }
+            return -1;
+        }
+        public static void main(String[] args){
+            int[] whitelist = In.readInts(args[0]);
+            Arrays.sort(whitelist);
+            while (!StdIn.isEmpty()){
+                //读取键值，如果不存在于白名单中则将其打印
+                int key = StdIn.readInt();
+                if (rank(key,whitelist) < 0)
+                    StdOut.println(key);
+            }
+        }
+    }
+```                                                                                      
+##### 答疑
+1.负数除法和余数的结果?
+
+答：表达式a / b的商会向0取整；a % b 的余数的定义是(a / b) * b + a % b 恒等于 a。
+例如：-14 / 3 和 14 / -3 的商都是-4，但是-14 % 3 是-2，14 % -3 是2。
+
+2.嵌套if语句中的二义性有问题吗？
+
+答：是的，java中，以下语句
+```text
+    if <expr1> if<expr2>  <stmntA>  else <stmntB>
+    等价于
+    if <expr1> { if<expr2>  <stmntA>  else <stmntB> }
+```
+### 1.2 数据抽象
+###### 典型的字符串处理代码
+```java
+    
+    class StringObj{
+        //判断字符串是否是一条回文
+        public static boolean isPalindrome(String s){
+            int N = s.length();
+            for(int i = 0; i < N/2; i++) {
+               if(s.charAt(i) != s.charAt(N-1-i))
+                   return false;  
+            }
+            return true;
+        }
+        
+        //从一个参数中提取文件名和扩展名
+        public static void getFileNameAndPrefix(String s){
+            int dot = s.indexOf(".");
+            String base = s.substring(0,dot);
+            String extension = s.substring(dot+1,s.length());
+        }  
+        
+        //String s = "";
+        //s.split("\\s+");  
+        //  
+        // 正则表达式中\s匹配任何空白字符，包括空格、制表符、换页符、回车符、换行符等，等价于[\f\n\r\t\v]
+        /*
+            \f  匹配一个换页 
+            \n  匹配一个换行符
+            \r  匹配一个回车符
+            \t  匹配一个制表符
+            \v  匹配一个垂直制表符
+        */
+        
+        //检查一个字符串数组中的元素是否已按照字母表顺序排列
+        public boolean isSorted(String[] a){
+            for(int i = 1; i < a.length; i++) {
+                if(a[i-1].compareTo(a[i])>0)
+                    return false;
+            }
+            return true;
+        }
+    }
+    
+```
+* 原始数据类型更解决计算机的硬件所支持的数据类型，因此它们比使用引用数据类型的程序运行的更快
+
+### 1.3 背包、队列、栈
+#### 1.3.1 API
+* Bag 背包
+* Queue 队列（先进先出-FIFO） 
+* Stack 栈（后进先出-LIFO）
+#### 1.3.1.1 泛型                                         
+* 泛型也叫参数化类型    
+```
+    Stack<String> stack = new Stack<String>();   
+    stack.push("hello");
+    ....
+    String next = stack.pop();
+```      
+* 样本差：每个值和平均值之差的平方之和除以N-1之后的平方根
+* java中不允许创建泛型数组
+```java
+public class FixedCapacityStackOfStrings<Item> {
+    private Item[] a;
+    private int N;
+
+    public FixedCapacityStackOfStrings(int cap){
+        //a = new Item[cap];   //此种创建泛型数组的方式不被允许，应该使用强制类型转换代替，代码如下：
+        a = (Item[]) new Object[cap];
+    }
+
+    public boolean isEmpty(){ return N == 0; }
+
+    public int size(){ return N; }
+
+    public void push(Item item){
+        if (N == a.length) resize(2*a.length);
+        a[N++] = item;
+    }
+
+    public Item pop(){
+       return a[N--];
+    }
+    
+    public void resize(int max){
+        //将大小为N <= max的栈移动到一个新的大小为max的数组中
+        Item[] temp = (Item[])new Object[max];
+        for(int i = 0; i < N; i++) {
+           temp[i] = a[i];
+        }
+        a = temp;
+    }
+}
+```
+* 链表是数组的一种重要的替代方式
+
+### 1.4 算法分析

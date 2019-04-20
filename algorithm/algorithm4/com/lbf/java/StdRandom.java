@@ -205,8 +205,8 @@ public final class StdRandom {
 
     /**
      * Returns a random boolean from a Bernoulli distribution with success
-     * probability <em>p</em>.
-     *
+     * probability(概率) <em>p</em>.
+     * Bernoulli distribution：二项分布
      * @param  p the probability of returning {@code true}
      * @return {@code true} with probability {@code p} and
      *         {@code false} with probability {@code 1 - p}
