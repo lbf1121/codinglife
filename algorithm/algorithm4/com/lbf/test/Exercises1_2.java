@@ -1,6 +1,6 @@
 package algorithm4.com.lbf.test;
 
-import algorithm4.com.lbf.java.StdOut;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * 功能说明：1.2 练习

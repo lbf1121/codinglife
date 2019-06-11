@@ -1,8 +1,7 @@
 package algorithm4.com.lbf.test;
 
-import algorithm4.com.lbf.java.In;
-import algorithm4.com.lbf.java.StdIn;
-import algorithm4.com.lbf.java.StdOut;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 /**
  * 功能说明：

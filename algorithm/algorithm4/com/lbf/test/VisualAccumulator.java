@@ -1,8 +1,8 @@
 package algorithm4.com.lbf.test;
 
-import algorithm4.com.lbf.java.StdDraw;
-import algorithm4.com.lbf.java.StdOut;
-import algorithm4.com.lbf.java.StdRandom;
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * 功能说明：

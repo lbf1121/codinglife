@@ -1,10 +1,5 @@
 package algorithm4.com.lbf.test;
 
-import algorithm4.com.lbf.java.StdOut;
-
-import java.math.BigInteger;
-import java.util.Arrays;
-
 /**
  * 功能说明：
  *

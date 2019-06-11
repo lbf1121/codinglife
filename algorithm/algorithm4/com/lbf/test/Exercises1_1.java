@@ -1,6 +1,6 @@
 package algorithm4.com.lbf.test;
 
-import algorithm4.com.lbf.java.StdOut;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
 import java.util.Random;

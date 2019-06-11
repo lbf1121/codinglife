@@ -1,12 +1,10 @@
 package algorithm4.com.lbf.test;
 
-import algorithm4.com.lbf.java.StdIn;
-import algorithm4.com.lbf.java.StdOut;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.HashSet;
-import java.util.Queue;
 import java.util.Set;
-import java.util.Stack;
 
 /**
  * 功能说明：常见的背包用例
