@@ -5,9 +5,9 @@
 |---| ----- | ---------- |
 |1|english|[...](../english/)|
 |2|mathematics|[JuniorMathematics](../mathematics/week11-7年级下.md)|
-|3|algorithm|[PalindromeNumber](../algorithm/src/)|
-|4|review|[Execution in the Kingdom of Nouns](../review/)|
-|5|share|[...](../share/c_programing_language/)|
+|3|algorithm|[PalindromeNumber](../algorithm/src/PalindromeNumber.java)|
+|4|review|[Execution in the Kingdom of Nouns](../review/Execution-in-the-Kingdom-of-Nouns.md)|
+|5|share|[...](../c/c_programing_language/)|
 |6|tip|[Java 8:Lambda](../tip/Java8-Lambda.md)|
 
 

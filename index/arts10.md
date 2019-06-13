@@ -7,7 +7,7 @@
 |2|mathematics|[JuniorMathematics](../mathematics/week10-7年级下.md)|
 |3|algorithm|[Longest Common Prefix](../algorithm/week10_Longest-Common-Prefix.md)|
 |4|review|[LinkedIn’s Tips for Highly Effective Code Review](../review/Week10_LinkedIn’s-Tips-for-Highly-Effective-Code-Review.md)|
-|5|share|[Execution in the Kingdom of Nouns](../share/Execution-in-the-Kingdom-of-Nouns.md)|
+|5|share|[....](../c/c_programing_language/)|
 |6|tip|[Java 8:Predicate And Consumer](../tip/Java8-PredicateAndConsumer.md)|
 
 

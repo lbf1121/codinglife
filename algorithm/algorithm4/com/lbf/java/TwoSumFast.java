@@ -28,7 +28,7 @@ public class TwoSumFast {
         return -1;
     }
     /**
-     * binary search
+     * binary search ：折半查找法
      * @param key
      * @param a
      * @return

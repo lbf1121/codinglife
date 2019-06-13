@@ -28,8 +28,6 @@ public class PalindromeNumber {
                 first = xStr.substring(0,len/2+1);
                 second = xStr.substring(len/2);
             }
-//            System.out.println(first);
-//            System.out.println(second);
             StringBuffer temp = new StringBuffer(first);
             temp = temp.reverse();
             if(temp.toString().equals(second)){
