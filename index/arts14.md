@@ -8,6 +8,6 @@
 |3|algorithm|[...](../algorithm/src/)|
 |4|review|[...]()|
 |5|share|[...](../c/c_programing_language/)|
-|6|tip|[Exception in java](../tip/Exception-In-Java.md)|
+|6|tip|[java中1/10存在问题](../tip/)|
 
 

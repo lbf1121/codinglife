@@ -373,8 +373,14 @@ public class Arrays
     ....
     String next = stack.pop();
 ```      
+
+#### 1.3.1.2 自动装箱
+
+### 1.3.2 集合类数据类型的实现
 * 样本差：每个值和平均值之差的平方之和除以N-1之后的平方根
 * java中不允许创建泛型数组
+
+#### 1.3.2.2
 ```java
 public class FixedCapacityStackOfStrings<Item> {
     private Item[] a;

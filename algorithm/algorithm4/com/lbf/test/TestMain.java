@@ -2,6 +2,7 @@ package algorithm4.com.lbf.test;
 
 import com.sun.tools.javac.util.StringUtils;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.Stack;
 
@@ -59,10 +60,28 @@ public class TestMain {
         return value;
     }
 
+    static double count(double n,double m){
+        BigDecimal s =  new BigDecimal(0.0);
+        for (int i = 0; i < 10; i++) {
+            s  = s.add(new BigDecimal(0.1));
+        }
+        return s.doubleValue();
+    }
+
+    static double countDouble(double n,double m){
+        double s = 0.0;
+        for (int i = 0; i < 10; i++) {
+            s += 0.1;
+        }
+        return s;
+    }
+
     public static void main(String[] args){
 
-        String s = "()[]{(}[)]";
-        System.out.println(isValid(s));
+        System.out.println(count(1,10));
+        System.out.println(countDouble(1,10));
+//        String s = "()[]{(}[)]";
+//        System.out.println(isValid(s));
 //        System.out.printf("This is PI %.4f ,That is Random Number %.2f.\n",Math.PI,Math.random());
 //
 //        testMaxDouble();

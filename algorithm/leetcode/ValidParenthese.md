@@ -13,7 +13,7 @@
 
 ### own 
 * [Solution](./easy/ValidParentheses/own/Solution.java)
-* *Failure to resolve*
+* fail
 ### 回顾
 * 采用堆栈后进先出的策略
 * 队列，先进先出（FIFO—First In First Out）

@@ -1,4 +1,4 @@
-package src;
+package leetcode;
 
 /**
  * 功能说明：Determine whether an integer is a palindrome.
