@@ -1,0 +1,28 @@
+#测试IP:PORT是否连通
+curl -vv telnet://ip:port
+
+GET：
+curl -H "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOjEyNjU0NzY4OTA2NzI2NzI4MDgsImFjY291bnQiOiJzdXBlckFkbWluIiwidXVpZCI6IjQ4M2M4YzE3LTZlYTAtNDM3Ny1hN2QyLTQxYzIxNDVmZjY3MCIsInN1YiI6IjEyNjU0NzY4OTA2NzI2NzI4MDgiLCJpYXQiOjE2NjQyNjM3MjMsImV4cCI6MTY2NDM1MDEyM30.FSnPkXBniFDjxSy3DNinDQkUZxqZLyLFX4lG1kGWhY4Hy3rxHFtzkBmDqmPWrG0sBQkIwXwHtczfPtjsCspNAw" http://192.168.10.22:1084/flowableInstance/formData?id=1573971415673163778 
+
+POST：
+curl -X POST -H "Content-Type: application/json" -d '{"encrypt":"Dd0x8GLSbOspILPR30+iYoMtis9GftOLl4mJrJJD6Xrk6p1i0yBPl1HTnq2Lg0cN546bPQucb2jXrLhU56TJXA==","thirdPartId":"snPPuERFz"}' "http://10.249.1.72:9000/visit-third-service/namecomments/getOrgChange?msg_signature=6c902c4f310eebf3c920e07c9e04b4321a43dd89&timestamp=1664415877745&nonce=DTNmyt2VePJwRvq7"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"encrypt":"t/iuam7lChOxyllcHZEuK5VScjlTYgdNzE1qvW4jvXFhtXz5mAs/Mddjtp7hOjbdYGF/Qht+738Yu5u6JxJ3lWxVJHvyBgzdUQomblmtKRhHPX1Rykz+kAwAtaRwaowH","thirdPartId":"snPPuERFz"}' "http://10.249.1.72:9000/visit-third-service/namecomments/getUserInfo?msg_signature=5fbef869909ea70abc4d21a2904fd04e12265953&timestamp=1665217612742&nonce=zNhSS679FsuL52YE"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"platformType":"1","methodName":"getOrgByParentId","parentId":"1534962012642103298"}' "http://10.100.231.23:9999/openapi/third/testApi"
+
+curl -X POST -H "Content-Type: application/json" -d '{"platformType":"1","methodName":"getOrgByDivisionCode","divisionCode":"331100000000"}' "http://10.100.231.23:9999/openapi/third/testApi"
+
+curl -X POST -H "Content-Type: application/json" -d '{"platformType":"1","methodName":"getDeptByOrgId","orgId":"1534962012642103298"}' "http://10.100.231.23:9999/openapi/third/testApi"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"platformType":"1","methodName":"getOrgByParentId","parentId":"15349629012557373"}' "http://10.100.231.23:9999/openapi/third/testApi"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"orgId":"15349629012557373"}' "http://localhost:7773/rest/thirds/server/xwqlzf/payment"
+
+
+curl -X POST -H "Content-Type: application/json" -d '{"accNo":"361081147095","accountlist":[{"accountNoOfPayee":"6227001491040039367","accountOfPayee":"杨林","amountCollected":"1805","bankAbbrevation":"CCB","inOutBank":"2","jointBanknoOfPayee":"105343001000","nameOfPayeeBank":"中国建设银行丽水莲都支行"}],"applicationsAmount":"1805","orgEncode":"3311020020020000","orgId":"1399252809908850689","parentId":"1637653298139127810","procDefId":"sqcjcg:1:1461502879445897217","proccessType":"2","sendType":"2","settleStyle":"1","sjwPhId":"1637653298130739202","startUserId":"1442712280320180225","useOfFunds":"2022横幅办公经费","xwContractNo":"1637653298130739202","xwPaymentNo":"20230321160613619"}' "http://localhost:7773/moon/rest/thirds/sendPayInfoRun"
+
