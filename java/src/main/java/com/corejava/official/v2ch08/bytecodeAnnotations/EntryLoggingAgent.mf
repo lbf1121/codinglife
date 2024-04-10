@@ -1,0 +1,1 @@
+Premain-Class: com.corejava.official.v2ch08.bytecodeAnnotations.EntryLoggingAgent
